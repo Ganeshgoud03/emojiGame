@@ -1,0 +1,57 @@
+/* Write your code here. */
+@media (min-width: 576px) {
+  .bg-container {
+    background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+  }
+
+  .emoji-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .list-container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .bg-container {
+    background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+  }
+
+  .emoji-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .list-container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60vh;
+    margin-top: 15%;
+    margin-left: -10%;
+  }
+}

@@ -1,0 +1,42 @@
+/* Write your code here. */
+
+@media (min-width: 576px) {
+  .list-item {
+    margin: 5px;
+  }
+
+  .btn {
+    background-color: #ffffff30;
+    border: 2px solid #ffffff30;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .emoji-img {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .list-item {
+    margin: 5px;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    background-color: #ffffff30;
+    border: 2px solid #ffffff30;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .emoji-img {
+    height: 50px;
+    width: 50px;
+  }
+}

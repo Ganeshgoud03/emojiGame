@@ -1,0 +1,129 @@
+/* Write your code here. */
+@media (min-width: 576px) {
+  .result-container {
+    background-color: #ffffff30;
+    border: 3px solid #ffffff30;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    width: 100vh;
+    border-radius: 20px;
+    margin-top: 5%;
+  }
+
+  .result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .result-head {
+    color: #ffffff;
+    font-size: 50px;
+  }
+
+  .result-p1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -5%;
+  }
+
+  .result-p2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -20%;
+    color: #6a59ff;
+  }
+
+  .reset-btn {
+    background-color: #ffce27;
+    border: none;
+    font-weight: 600;
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: -10%;
+    font-size: 14px;
+    cursor: pointer;
+    color: #3d3d3d;
+  }
+
+  .result-img {
+    width: 70%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .result-container {
+    background-color: #ffffff30;
+    border: 3px solid #ffffff30;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 50vh;
+    border-radius: 20px;
+    margin-top: 15%;
+  }
+
+  .result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10%;
+  }
+
+  .result-head {
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  .result-p1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -5%;
+  }
+
+  .result-p2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -20%;
+    color: #6a59ff;
+  }
+
+  .reset-btn {
+    background-color: #ffce27;
+    border: none;
+    font-weight: 600;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: -10%;
+    font-size: 14px;
+    cursor: pointer;
+    color: #3d3d3d;
+  }
+
+  .img-container {
+    order: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20%;
+  }
+
+  .result-img {
+    width: 80%;
+    height: 70%;
+  }
+}
